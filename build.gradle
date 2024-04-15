@@ -1,0 +1,45 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.0.2'
+	id 'io.spring.dependency-management' version '1.1.0'
+}
+
+group = 'com.infopost'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '17'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.1'
+	implementation 'io.swagger.core.v3:swagger-annotations:2.0.10'
+
+	implementation 'org.hibernate.validator:hibernate-validator:7.0.1.Final'
+	implementation 'org.glassfish:jakarta.el:4.0.1'
+
+	implementation 'org.flywaydb:flyway-core'
+
+	runtimeOnly 'org.postgresql:postgresql'
+
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	testImplementation 'org.mockito:mockito-core:5.9.0'
+	testImplementation 'org.mockito:mockito-junit-jupiter:5.9.0'
+}
+
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
