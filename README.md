@@ -56,9 +56,7 @@ http://localhost:8080/swagger-ui.html
 
 Replace 8080 with the appropriate port if your application runs on a different one.
 
-![image](https://github.com/qrwtruyqieygfdh/InfopostAccountService/assets/63457388/56c2439c-000d-4387-8273-1bfefbebf13b)
-![image](https://github.com/qrwtruyqieygfdh/InfopostAccountService/assets/63457388/2fa6fe1f-9915-4dc8-b507-88a2bd5409c3)
-
+![image](https://github.com/qrwtruyqieygfdh/InfopostAccountService/assets/63457388/c3e9003b-6b0e-40ca-a30a-f70abfea8918)
 
 ## Authors
 
