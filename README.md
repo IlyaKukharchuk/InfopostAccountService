@@ -58,6 +58,10 @@ Replace 8080 with the appropriate port if your application runs on a different o
 
 ![image](https://github.com/qrwtruyqieygfdh/InfopostAccountService/assets/63457388/c3e9003b-6b0e-40ca-a30a-f70abfea8918)
 
+## Entity Relationship Diagram
+
+![image](https://github.com/qrwtruyqieygfdh/InfopostAccountService/assets/63457388/c65845f5-20ba-4ac9-8c0c-7137e02d0487)
+
 ## Authors
 
 - **Ilya Kukharchuk** - *Java Software Engineer*
